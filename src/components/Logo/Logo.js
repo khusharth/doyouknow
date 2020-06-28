@@ -1,27 +1,8 @@
-import React, { useContext, useEffect, useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
-import Logo1 from "../../assets/logo.png";
-import Logo2 from "../../assets/logo-2.png";
-import Logo3 from "../../assets/logo-3.png";
-import { ThemeContext } from "../../ThemeContext";
+import logo from "../../assets/logo.png";
 
 const Logo = ({ width }) => {
-    const [logo, setLogo] = useState(Logo1);
-    const { theme } = useContext(ThemeContext);
-
-    const getLogo = () => {
-        if (theme === 'brown') {
-            setLogo(Logo3);
-        } else if (theme === 'green') {
-            setLogo(Logo2);
-        } else {
-            setLogo(Logo1);
-        }
-    };
-
-    useEffect(() => {
-        getLogo();
-    }, [theme]);
 
     return (
         <Link to="/">
@@ -33,7 +14,7 @@ const Logo = ({ width }) => {
 };
 
 Logo.defaultProps = {
-    width: "280px",
+    width: "250px",
 };
 
 export default Logo;
