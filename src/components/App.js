@@ -3,7 +3,7 @@ import { Router, Route, Switch } from "react-router-dom";
 import "../styles/global.scss"
 import history from "../history";
 import { Home, Subjects, Quiz } from "../pages";
-import Header from "./Header/Header";
+import { Header, Footer } from "../components"
 import { UserContext } from "../context/userContext";
 
 const App = () => {
@@ -20,6 +20,7 @@ const App = () => {
                     <Route path="/quiz/:subject" component={Quiz} />
                 </UserContext.Provider>
             </Switch>
+            <Footer />
         </Router>
     );
 };
