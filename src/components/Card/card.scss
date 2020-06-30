@@ -1,0 +1,30 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #A6DCEF;
+    cursor: pointer;
+    width: 20.5rem;
+    height: 10rem;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 3px;
+    box-shadow: 0 0.4rem 1rem 0 rgba(71,157,233, 0.4);
+    transition: all .2s;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+
+    @media only screen and (max-width: 600px) {
+        &:not(:last-of-type) {
+            margin-bottom: 2rem;
+        }      
+    }
+
+    &__icon {
+        display: flex;
+        justify-content: center;
+    }
+}

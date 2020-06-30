@@ -1,0 +1,41 @@
+.subjects {
+    &__container {
+        margin-top: 1.5rem;
+        padding: 1rem;
+
+        @media only screen and (max-width: 600px) {
+            margin-top: 2rem;
+        }
+    }
+
+    &__row {
+        display: flex;
+        justify-content: center;
+
+        @media only screen and (max-width: 600px) {
+            align-items: center;
+            flex-direction: column; 
+        }
+    
+        &:not(:last-child) {
+            margin-bottom: 3rem;
+
+            @media only screen and (max-width: 600px) {
+                margin-bottom: 1.5rem;
+            }
+        }
+
+        .card:not(:last-of-type) {
+            margin-right: 3rem;
+
+            @media only screen and (max-width: 600px) {
+                margin-right: 0;
+            }
+        }
+    }
+
+    &__btn-container {
+        display: flex;
+        justify-content: center;
+    }
+}
