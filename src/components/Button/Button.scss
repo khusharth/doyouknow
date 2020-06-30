@@ -1,36 +1,43 @@
-@import "./../../styles/theme.scss";
 
 .btn {
     &--primary {
         font-size: 1.8rem;
         padding: 1rem 7rem;
-        color: #fff;
+        color: #479DE9;
+        background-color: #fff;
         border: none;
-        border-radius: 5px;
+        border-radius: 50px;
         align-items: center;
-        @include themify($themes) {
-            background-image: linear-gradient(
-                120deg,
-                themed("btnColorPrimary"),
-                themed("btnColorSecondary")
-            );
-        }
-        // background-image: linear-gradient(120deg, #3a7bd5, #00d2ff);
+        border: 2px solid #A6DCEF;
+    
         cursor: pointer;
         transition: all 0.3s;
 
         &:hover {
-            transform: scale(1.1);
-            box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
+            transform: scale(1.05);
+            box-shadow: 0 1rem 20rem 0 rgba(0, 0, 0, 0.2);
         }
 
         &:focus {
             outline: 0;
-            box-shadow: 0 1rem 2rem 0 rgba(0, 0, 0, 0.2);
+            box-shadow: 0 1rem 20rem 0 rgba(0, 0, 0, 0.2);
         }
 
         &:active {
             transform: scale(1);
         }
+
+        &:disabled {
+            color: #aaa;
+            border: 2px solid #eee;
+            pointer-events: none;
+
+            &:hover,
+            &:focus {
+                transform: scale(1);
+                box-shadow: none;
+            }
+        }
+
     }
 }
