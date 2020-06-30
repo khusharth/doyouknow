@@ -1,0 +1,182 @@
+.quiz {
+    &__container {
+        padding-bottom: 5rem;
+        display: flex;
+        justify-content: center;
+        // background-color: #ccc;
+    }
+
+    &__board {
+        box-shadow: 0 0.4rem 1rem rgba(71,157,233, 0.4);
+        margin-top: 0rem;
+        padding: 2rem 4rem;
+        background-color: #fff;
+        width: 60%;
+
+        @media only screen and (max-width: 1200px) {
+            width: 70%;
+        }
+
+        @media only screen and (max-width: 1000px) {
+            width: 80%;
+        }
+
+        @media only screen and (max-width: 700px) {
+            width: 90%;
+        }
+
+        @media only screen and (max-width: 600px) {
+            padding: 2rem 2.5rem;
+        }
+    }
+
+    &__title {
+        text-align: center;
+        font-size: 2rem;
+        color: #479DE9;
+        
+        border-bottom: 1px solid #ddf3f5;
+    }
+
+    &__stats {
+        color: #1461a5;
+        margin-top: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        font-size: 2.5rem;
+
+        & svg {
+            vertical-align: middle;
+        }
+    }
+
+    &__content {
+        margin-top: 1.5rem;
+    }
+
+    &__question {
+        text-align: center;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #1461a5;
+    }
+
+    &__options {
+        color: #1461a5;
+        margin-top: 2.5rem;
+    }
+
+    &__option {
+        display: flex;
+        align-items: stretch;
+        font-size: 1.8rem;
+        margin-bottom: 1rem;
+        background-color: #f5f5f5;
+        transition: all .2s;
+        cursor: pointer;
+
+        &:hover {
+            box-shadow: 0 0.5rem 1.2rem rgba(71,157,233, 0.5);
+            transform: translateY(-0.1rem);
+        }
+    }
+
+    &__bullet {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        background-color: #479DE9;
+        color: #fff;
+        font-weight: 600;
+        margin-right: 1rem;
+        padding: 0.6rem 0;
+    }
+
+    &__text {
+        width: calc(100% - 5rem);
+        display: inline-block;
+        padding: 0.6rem;
+    }
+
+    &__btn-container {
+        margin-top: 2.5rem;
+        display: flex;
+        justify-content: space-around;
+
+        @media only screen and (max-width: 600px) {
+            flex-direction: column-reverse;
+        }
+
+        button:not(:last-child) {
+            @media only screen and (max-width: 600px) {
+                margin-top: 1.2rem;
+            }
+        }
+    }
+}
+
+.correct {
+    background-color: #2fc250;
+}
+
+.incorrect {
+    background-color: #dc3545;
+}
+
+.summary {
+    &__container {
+        margin-top: 1.5rem;
+    }
+    &__title {
+        color: #1461a5;
+        text-align: center;
+        font-size: 2.5rem;
+
+        & svg {
+            vertical-align: middle;
+        }
+    }
+
+    &__line {
+        color: #1461a5;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    &__score {
+        color: #1461a5;
+        margin-top: 1rem;
+        text-align: center;
+        font-size: 2.5rem;
+    }
+
+    &__total-container {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__total {
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__btn-container {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    &__btn-centered {   
+        display: flex;
+        flex-direction: column-reverse;
+        width: 50%;
+
+         @media only screen and (max-width: 600px) {
+            width: 100%;
+        }
+    }
+
+}

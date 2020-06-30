@@ -1,0 +1,330 @@
+{
+    "dbms": [
+        {
+            "question": "The following are components of a database except ________ .",
+            "optionA": "user data",
+            "optionB": "metadata",
+            "optionC": "reports",
+            "optionD": "indexes",
+            "answer": "reports"
+        },
+        {
+            "question": "SQL stands for ________ .",
+            "optionA": "Structured Query Language",
+            "optionB": "Sequential Query Language",
+            "optionC": "Structured Question Language",
+            "optionD": "Sequential Question Language",
+            "answer": "Structured Query Language"
+        },
+        {
+            "question": "You can add a row using SQL in a database with which of the following?",
+            "optionA": "ADD",
+            "optionB": "CREATE",
+            "optionC": "INSERT",
+            "optionD": "MAKE",
+            "answer": "INSERT"
+        },
+        {
+            "question": "The command to eliminate a table from a database is:",
+            "optionA": "REMOVE TABLE CUSTOMER",
+            "optionB": "DROP TABLE CUSTOMER",
+            "optionC": "DELETE TABLE CUSTOMER",
+            "optionD": "UPDATE TABLE CUSTOMER",
+            "answer": "DROP TABLE CUSTOMER"
+        },
+        {
+            "question": "Which of the following are the five built-in functions provided by SQL?",
+            "optionA": "COUNT, SUM, AVG, MAX, MIN",
+            "optionB": "SUM, AVG, MIN, MAX, MULT",
+            "optionC": "SUM, AVG, MULT, DIV, MIN",
+            "optionD": "SUM, AVG, MIN, MAX, NAME",
+            "answer": "COUNT, SUM, AVG, MAX, MIN"
+        },
+        {
+            "question": "The SQL statement that queries or reads data from a table is ________",
+            "optionA": "SELECT",
+            "optionB": "READ",
+            "optionC": "QUERY",
+            "optionD": "None of the above is correct.",
+            "answer": "SELECT"
+        },
+        {
+            "question": "The primary key is selected from the:",
+            "optionA": "composite keys",
+            "optionB": "determinants",
+            "optionC": "candidate keys",
+            "optionD": "foreign keys",
+            "answer": "candidate keys"
+        },
+        {
+            "question": "A functional dependency is a relationship between or among:",
+            "optionA": "tables",
+            "optionB": "rows",
+            "optionC": "relations",
+            "optionD": "attributes",
+            "answer": "attributes"
+        },
+        {
+            "question": "Table is synonymous with the term:",
+            "optionA": "record",
+            "optionB": "relation",
+            "optionC": "column",
+            "optionD": "field",
+            "answer": "relation"
+        },
+        {
+            "question": "A primary key should be defined as:",
+            "optionA": "NULL",
+            "optionB": "NOT NULL",
+            "optionC": "Either of the above can be used",
+            "optionD": "None of the above are correct",
+            "answer": "NOT NULL"
+        }
+    ],
+    "cn": [
+        {
+            "question": "How long is an IPv6 address?",
+            "optionA": "32 bits",
+            "optionB": "128 bytes",
+            "optionC": "64 bits",
+            "optionD": "128 bits",
+            "answer": "128 bits"
+        },
+        {
+            "question": "Which protocol does DHCP use at the Transport layer?",
+            "optionA": "IP",
+            "optionB": "TCP",
+            "optionC": "UDP",
+            "optionD": "ARP",
+            "answer": "UDP"
+        },
+        {
+            "question": "Where is a hub specified in the OSI model?",
+            "optionA": "Session layer",
+            "optionB": "Physical layer",
+            "optionC": "Data Link layer",
+            "optionD": "Application layer",
+            "answer": "Physical layer"
+        },
+        {
+            "question": "Which class of IP address has the most host addresses available by default?",
+            "optionA": "A",
+            "optionB": "B",
+            "optionC": "C",
+            "optionD": "A and B",
+            "answer": "A"
+        },
+        {
+            "question": "Which protocol does Ping use?",
+            "optionA": "TCP",
+            "optionB": "ARP",
+            "optionC": "ICMP",
+            "optionD": "BootP",
+            "answer": "ICMP"
+        },
+        {
+            "question": "Which of the following protocols uses both TCP and UDP?",
+            "optionA": "FTP",
+            "optionB": "SMTP",
+            "optionC": "Telnet",
+            "optionD": "DNS",
+            "answer": "DNS"
+        },
+        {
+            "question": "Acknowledgments, sequencing, and flow control are characteristics of which OSI layer?",
+            "optionA": "Layer 2",
+            "optionB": "Layer 3",
+            "optionC": "Layer 4",
+            "optionD": "Layer 7",
+            "answer": "Layer 4"
+        },
+        {
+            "question": "Segmentation of a data stream happens at which layer of the OSI model?",
+            "optionA": "Physical",
+            "optionB": "Data Link",
+            "optionC": "Network",
+            "optionD": "Transport",
+            "answer": "Transport"
+        },
+        {
+            "question": "Which one of the following is a transport layer protocol used in internet? ",
+            "optionA": "TCP",
+            "optionB": "UDP",
+            "optionC": "both (A) and (B)",
+            "optionD": "none of the mentioned",
+            "answer": "both (A) and (B)"
+        },
+        {
+            "question": "An endpoint of an inter-process communication flow across a computer network is called: ",
+            "optionA": "socket",
+            "optionB": "pipe",
+            "optionC": "port",
+            "optionD": "none of the mentioned",
+            "answer": "socket"
+        }
+    ],
+    "os": [
+        {
+            "question": "Process is",
+            "optionA": "program in High level language kept on disk",
+            "optionB": "contents of main memory",
+            "optionC": "a program in execution",
+            "optionD": "a job in secondary memory",
+            "answer": "a program in execution"
+        },
+        {
+            "question": "Fork is",
+            "optionA": "the dispatching of a task",
+            "optionB": "the creation of a new job",
+            "optionC": "the creation of a new process",
+            "optionD": "increasing the priority of a task",
+            "answer": "the creation of a new process"
+        },
+        {
+            "question": "A system program that sets up an executable program in main memory ready for execution is",
+            "optionA": "assembler",
+            "optionB": "linker",
+            "optionC": "loader",
+            "optionD": "compiler",
+            "answer": "loader"
+        },
+        {
+            "question": "The FIFO algorithm: ",
+            "optionA": "executes first the job that last entered the queue",
+            "optionB": "executes first the job that first entered the queue",
+            "optionC": "execute first the job that has been in the queue the longest",
+            "optionD": "executes first the job with the least processor needs",
+            "answer": "executes first the job that first entered the queue"
+        },
+        {
+            "question": "Bug means",
+            "optionA": "A logical error in a program",
+            "optionB": "A difficult syntax error in a program",
+            "optionC": "Documenting programs using an efficient documentation tool",
+            "optionD": "BootPAll of the above",
+            "answer": "A logical error in a program"
+        },
+        {
+            "question": "Memory management is :",
+            "optionA": "not used in modern operating system",
+            "optionB": "replaced with virtual memory on current systems",
+            "optionC": "not used on multiprogramming systems",
+            "optionD": "critical for even the simplest operating systems",
+            "answer": "critical for even the simplest operating systems"
+        },
+        {
+            "question": "Block caches or buffer caches are used",
+            "optionA": "to improve disk performance",
+            "optionB": "to handle interrupts",
+            "optionC": "to increase the capacity of the main memory",
+            "optionD": "to speed up main memory read operation",
+            "answer": "to improve disk performance"
+        },
+        {
+            "question": "Operating system is",
+            "optionA": "A collection of hardware components",
+            "optionB": "A collection of input-output devices",
+            "optionC": "A collection of software routines",
+            "optionD": "All of the above",
+            "answer": "A collection of software routines"
+        },
+        {
+            "question": "The SJF algorithm executes first the job ",
+            "optionA": "that last entered the queue",
+            "optionB": "that first entered the queue",
+            "optionC": "that has been in the queue the longest",
+            "optionD": "with the least processor needs",
+            "answer": "with the least processor needs"
+        },
+        {
+            "question": "Which one of the following is the deadlock avoidance algorithm? ",
+            "optionA": "banker’s algorithm",
+            "optionB": "round-robin algorithm",
+            "optionC": "elevator algorithm",
+            "optionD": "karn’s algorithm",
+            "answer": "banker’s algorithm"
+        }
+    ],
+    "dsa": [
+        {
+            "question": "push() and pop() functions are found in",
+            "optionA": "queues",
+            "optionB": "lists",
+            "optionC": "stacks",
+            "optionD": "trees",
+            "answer": "stacks"
+        },
+        {
+            "question": "In doubly linked lists",
+            "optionA": "a pointer is maintained to store both next and previous nodes.",
+            "optionB": "two pointers are maintained to store next and previous nodes.",
+            "optionC": "a pointer to self is maintained for each node.",
+            "optionD": "none of the above.",
+            "answer": "two pointers are maintained to store next and previous nodes."
+        },
+        {
+            "question": "The time required in best case for search operation in binary tree is",
+            "optionA": "O(n)",
+            "optionB": "O(1)",
+            "optionC": "O(2n)",
+            "optionD": "O(log 2n)",
+            "answer": "O(1)"
+        },
+        {
+            "question": "The data structure required to evaluate a postfix expression is",
+            "optionA": "queue",
+            "optionB": "stack",
+            "optionC": "linked list",
+            "optionD": "All of the above",
+            "answer": "stack"
+        },
+        {
+            "question": "Which of the following is not a primitive data structure",
+            "optionA": "Boolean",
+            "optionB": "Integer",
+            "optionC": "Arrays",
+            "optionD": "Character",
+            "answer": "Arrays"
+        },
+        {
+            "question": "0/1 knapsack is based on ____________method",
+            "optionA": "greedy method",
+            "optionB": "branch and bound",
+            "optionC": "dynamic programming",
+            "optionD": "divide and conquer",
+            "answer": "dynamic programming"
+        },
+        {
+            "question": "The ___________ of an algorithm is the amount of memory it needs to run to completion.",
+            "optionA": "Space Complexity",
+            "optionB": "Best Case",
+            "optionC": "Time Complexity",
+            "optionD": "Worst Case",
+            "answer": "Space Complexity"
+        },
+        {
+            "question": "In a priority queue, insertion and deletion takes place at __________ ",
+            "optionA": "front, rear end",
+            "optionB": "only at rear end",
+            "optionC": "only at front end",
+            "optionD": "any position",
+            "answer": "any position"
+        },
+        {
+            "question": "Which of the following is an application of stack?",
+            "optionA": "finding factorial",
+            "optionB": "tower of Hanoi",
+            "optionC": "infix to postfix conversion",
+            "optionD": "all of the above",
+            "answer": "tower of Hanoi"
+        },
+        {
+            "question": "Which one of the following is the deadlock avoidance algorithm? ",
+            "optionA": "banker’s algorithm",
+            "optionB": "round-robin algorithm",
+            "optionC": "elevator algorithm",
+            "optionD": "karn’s algorithm",
+            "answer": "banker’s algorithm"
+        }
+    ]
+}
