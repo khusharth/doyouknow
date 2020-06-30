@@ -276,7 +276,7 @@ const Quiz = (props) => {
                         </div>
                         <div className="quiz__btn-container">
                             {/* <Button disabled={prevBtnDisabled} onClick={handlePrevClick}>Prev</Button> */}
-                            <Button disabled={nextBtnDisabled} onClick={handleNextClick}>Next</Button>
+                            <Button disabled={nextBtnDisabled} onClick={handleNextClick}>Skip</Button>
                         </div>
                     </>
                     :
