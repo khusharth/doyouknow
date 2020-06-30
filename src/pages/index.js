@@ -1,5 +1,5 @@
-import Home from "./Home";
-import Subjects from "./Subjects";
-import Quiz from "./Quiz";
+import Home from "./Home/Home";
+import Subjects from "./Subjects/Subjects";
+import Quiz from "./Quiz/Quiz";
 
 export { Home, Subjects, Quiz };
